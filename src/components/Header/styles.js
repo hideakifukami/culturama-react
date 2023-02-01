@@ -12,6 +12,11 @@ export const Menu = styled.ul`
     height: 258px;
     padding: 0 1.5rem;
     white-space: nowrap;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 33px;
 `
 
 
