@@ -4,11 +4,17 @@ import * as C from './styles'
 
 const Header = () => {
   return (
-    <C.Container>
-        <C.Menu>
-            <MenuItens />
-        </C.Menu>
-    </C.Container>
+    <>
+        <C.Header>
+            <C.Nav>
+                    <MenuItens 
+                        valueLink1='Programação'
+                        valueLink2='Categorias'
+                        valueLink3='Seu local'
+                    />
+            </C.Nav>
+        </C.Header>
+    </>
     )
 }
 

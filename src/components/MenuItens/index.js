@@ -1,29 +1,28 @@
 import React from 'react'
-import MenuLink from '../MenuLink'
-import MenuSearch from '../MenuSearch'
-import MenuTitle from '../MenuTitle'
 import * as C from './styles'
 
-const MenuItens = () => {
+const MenuItens = (props) => {
   return (
-    <>
+    <C.Ul>
       <C.ListItem>
-        <MenuTitle />
+        <C.Title />
       </C.ListItem>
       <C.ListItem>
-        <MenuLink href='#' value='Programação' />
+        <C.Link href={props.href}>{props.valueLink1}</C.Link> 
       </C.ListItem>
       <C.ListItem>
-        <MenuLink href='#' value='Categorias' />
+        <C.Link href={props.href}>{props.valueLink2}</C.Link> 
       </C.ListItem>
       <C.ListItem>
-        <MenuLink href='#' value='Seu local' />
+        <C.Link href={props.href}>{props.valueLink3}</C.Link> 
       </C.ListItem>
-      <C.SearchItem>
-        <MenuSearch />
-      </C.SearchItem>
-    </>
-    )
+      <C.ListItem>
+        <C.Label for='search'>
+          <C.Input type='search' name='' placeholder='O que você procura?' id='search' />
+        </C.Label>
+      </C.ListItem>
+    </C.Ul>
+  )
 }
 
 export default MenuItens
