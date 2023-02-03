@@ -1,4 +1,5 @@
 import { createGlobalStyle } from "styled-components";
+import { fontData } from "../data";
 
 const Global = createGlobalStyle`
     * {
@@ -6,8 +7,17 @@ const Global = createGlobalStyle`
     }
 
     body {
-        font-family: var(--fonte-primaria);
+        font-family: ${fontData.fontePrimaria};
         height: 100vh;
+    }
+
+    img {
+        opacity: 1;
+        transition: 0.5s;
+    }
+
+    img:hover {
+        opacity: 0.7;
     }
 `;
 

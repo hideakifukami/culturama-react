@@ -1,9 +1,10 @@
 import styled from "styled-components";
 import { headerData } from "../../data";
+import { fontData } from "../../data";
 
 export const Ul = styled.ul`
     background-color: black;
-    font-family: 'Fjalla One', sans-serif;
+    font-family: ${fontData.fonteSecundaria};
     font-size: 16px;
     height: 258px;
     padding: 0 1.5rem;
