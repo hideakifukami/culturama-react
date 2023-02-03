@@ -1,4 +1,8 @@
 import styled from "styled-components";
+import { fontData } from "../../data";
+
+const primaria = fontData.fontePrimaria
+const secundaria = fontData.fonteSecundaria
 
 
 export const CategorySection = styled.section`
@@ -20,6 +24,9 @@ export const CategorySection = styled.section`
 
 export const CategoryTitle = styled.h2`
     margin-bottom: 1rem;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: ;
 
     @media(min-width: 1440px) {
         margin-bottom: 0;
