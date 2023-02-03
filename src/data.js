@@ -23,9 +23,52 @@ import Favicon from './img/Favicon2.png'
 import IconeBusca from './img/icone-busca.png'
 import IconeGPS from './img/icone-gps.png'
 import IconeSetaAvancar from './img/icone-seta-avancar.png'
-import IconeSetaVoltar from './img/icone-voltar.png'
+import IconeSetaVoltar from './img/icone-seta-voltar.png'
 import IconeSeta from './img/icone-seta.png'
-import LogoRodape from './img/logo-rodape.png'
+import LogoRodape from './img/logo_rodape.png'
 import LogoBrancoMaior from './img/logo-branco-maior.png'
 import LogoBrancoMenor from './img/logo-branco-menor.png'
 
+export const colorData = {
+    amarelo: "#FFC756",
+    laranja: "#F66139",
+    lilas: "#7F8FFE",
+    verde: "#56B78C",
+    cinzaClaro: "#D9D9D9",
+    cinzaEscuro: "#959595"
+}
+
+export const fontData = {
+    fontePrimaria: "'Work Sans', sans-serif",
+    fonteSecundaria: "'Fjalla One', sans-serif" 
+}
+
+export const headerData = {
+    iconeBusca: IconeBusca,
+    iconeGPS: IconeGPS,   
+    iconeSeta: IconeSeta,  
+    logoMaior: LogoBrancoMaior,    
+    logoMenor: LogoBrancoMenor
+}
+
+export const bannerData = {
+    banner1: {
+        src: Banner1,
+        alt: "Banner cor amarela"
+    },
+
+    banner2: {
+        src: Banner2,
+        alt: "Banner cor lilás"
+    },
+
+    banner3: {
+        src: Banner3,
+        alt: "Banner cor verde"
+    },
+
+    banner4: {
+        src: Banner4,
+        alt: "Banner cor laranja"
+    }
+}

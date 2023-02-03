@@ -1,10 +1,5 @@
 import styled from "styled-components";
-import gps from '../../img/icone-gps.png'
-import seta from '../../img/icone-seta.png'
-import logo from '../../img/logo-branco-maior.png'
-import logoMenor from '../../img/logo-branco-menor.png'
-import icone from '../../img/icone-busca.png'
-
+import { headerData } from "../../data";
 
 export const Ul = styled.ul`
     background-color: black;
@@ -37,13 +32,13 @@ export const Ul = styled.ul`
 export const ListItem = styled.li`
     :nth-child(4)::before {
         padding-right: 8px;
-        content: url(${gps});
+        content: url(${headerData.iconeGPS});
         cursor: pointer;
         transition: 3.3s;
     }
 
     :nth-child(4)::after {
-        content: url(${seta});
+        content: url(${headerData.iconeSeta});
         padding-left: 8px;
         cursor: pointer;
         transition: 3.3s;
@@ -94,7 +89,7 @@ export const ListItem = styled.li`
 `
 
 export const Title = styled.h1`
-    background-image: url(${logo});
+    background-image: url(${headerData.logoMaior});
     background-repeat: no-repeat;
     background-position: center;
     padding: 40px 100px;
@@ -107,7 +102,7 @@ export const Title = styled.h1`
         }
 
         @media (min-width: 1440px) {
-            background-image: ${logoMenor};
+            background-image: url(${headerData.logoMenor});
             padding: 43px 55px;
         }
 `
@@ -128,7 +123,7 @@ export const Label = styled.label`
 export const Input = styled.input`
     color: white;
     background-color: black;
-    background-image: url(${icone});
+    background-image: url(${headerData.iconeBusca});
     background-repeat: no-repeat;
     background-position: right;
     font-size: 16px;
