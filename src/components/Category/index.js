@@ -1,6 +1,8 @@
 import React from 'react'
 import { colorData } from '../../data'
 import CategoryItem from '../CategoryItem'
+import Emphasis from '../Emphasis'
+import { emphasisData } from '../../data'
 import * as C from './styles'
 
 const Category = () => {
@@ -55,6 +57,10 @@ const Category = () => {
                     <CategoryItem key={index} categorie={item.categorie} color={item.color} />
                 ))}
             </C.CategoryList>
+            <C.CategoryEmphasis>
+                    <Emphasis img1={emphasisData.img1} img2={emphasisData.img2} />
+            </C.CategoryEmphasis>
+            <C.CategoryImage />
         </C.CategorySection>
     )
 }

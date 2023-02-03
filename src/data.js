@@ -72,3 +72,14 @@ export const bannerData = {
         alt: "Banner cor laranja"
     }
 }
+
+export const emphasisData = {
+    img1: IconeSetaVoltar,
+    img2: IconeSetaAvancar
+}
+
+
+export const categoryImageData = {
+    destaque360: Destaques360,
+    apresentacao720: Apresentacao720
+}
