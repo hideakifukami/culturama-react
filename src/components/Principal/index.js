@@ -2,6 +2,7 @@ import React from 'react'
 import { bannerData } from '../../data'
 import Banner from '../Banner'
 import Category from '../Category'
+import Events from '../Events'
 import * as C from './styles'
 
 const Principal = () => {
@@ -19,6 +20,7 @@ const Principal = () => {
             alt4={bannerData.banner4.alt}
         />
         <Category />
+        <Events />
     </C.Main>
   )
 }

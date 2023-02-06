@@ -29,6 +29,8 @@ import LogoRodape from './img/logo_rodape.png'
 import LogoBrancoMaior from './img/logo-branco-maior.png'
 import LogoBrancoMenor from './img/logo-branco-menor.png'
 
+
+
 export const colorData = {
     amarelo: "#FFC756",
     laranja: "#F66139",
@@ -82,4 +84,15 @@ export const emphasisData = {
 export const categoryImageData = {
     destaque360: Destaques360,
     apresentacao720: Apresentacao720
+}
+
+export const eventsData = {
+    evento1: Evento1,
+    evento2: Evento2,
+    evento3: Evento3,
+    evento4: Evento4,
+    evento5: Evento5,
+    evento6: Evento6,
+    evento7: Evento7,
+    evento8: Evento8
 }
