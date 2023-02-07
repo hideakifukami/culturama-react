@@ -3,6 +3,7 @@ import { bannerData } from '../../data'
 import Banner from '../Banner'
 import Category from '../Category'
 import Events from '../Events'
+import Schedule from '../Schedule'
 import * as C from './styles'
 
 const Principal = () => {
@@ -21,6 +22,7 @@ const Principal = () => {
         />
         <Category />
         <Events />
+        <Schedule />
     </C.Main>
   )
 }

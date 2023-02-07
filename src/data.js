@@ -96,3 +96,12 @@ export const eventsData = {
     evento7: Evento7,
     evento8: Evento8
 }
+
+export const scheduleData = {
+    agenda1: Agenda1,
+    agenda2: Agenda2,
+    agenda3: Agenda3,
+    agenda4: Agenda4,
+    agenda5: Agenda5,
+    agenda6: Agenda6
+}

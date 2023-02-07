@@ -1,14 +1,14 @@
 import React from 'react'
 import * as C from './styles'
 
-const EventItem = (props) => {
+const EventItem = ({ src, alt, h3, h4, h5, button}) => {
   return (
     <C.ItemList>
-        <C.ItemImg src={props.eventSrc} alt={props.eventAlt} />
-        <C.ItemH3>{props.eventH3}</C.ItemH3>
-        <C.ItemH4>{props.eventH4}</C.ItemH4>
-        <C.ItemH5>{props.eventH5}</C.ItemH5>
-        <C.ItemButton>Ver</C.ItemButton>
+        <C.ItemImg src={src} alt={alt} />
+        <C.ItemH3>{h3}</C.ItemH3>
+        <C.ItemH4>{h4}</C.ItemH4>
+        <C.ItemH5>{h5}</C.ItemH5>
+        <C.ItemButton>{button}</C.ItemButton>
     </C.ItemList>
   )
 }
