@@ -2,6 +2,7 @@ import React from 'react'
 import * as C from './styles'
 import { eventsData } from '../../data'
 import EventItem from '../EventItem'
+import ButtonMais from '../ButtonMais'
 
 const Events = () => {
 
@@ -75,14 +76,15 @@ const Events = () => {
     ]
 
   return (
-    <>
+    <C.EventsContainer>
         <C.EventsTitle>Próximos Eventos</C.EventsTitle>
         <C.EventsList>
             {itemData.map((item, index) => (
                 <EventItem  eventSrc={item.src} eventAlt={item.alt} eventH3={item.h3} eventH4={item.h4} eventH5={item.h5} /> 
-            ))}          
+            ))}     
+            <ButtonMais />   
         </C.EventsList>
-    </>
+    </C.EventsContainer>
   )
 }
 
