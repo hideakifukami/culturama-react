@@ -6,7 +6,6 @@ export const ScheduleItemList = styled.li`
     flex-grow: 1;
     max-width: 400px;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
     background-color: ${colorData.cinzaClaro};
 
     @media(min-width: 720px) {

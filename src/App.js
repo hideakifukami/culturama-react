@@ -1,3 +1,4 @@
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Principal from "./components/Principal";
 import GlobalStyle from "./styles/global"
@@ -7,6 +8,7 @@ const App = () => {
     <>
       <Header />
       <Principal />
+      <Footer />
       <GlobalStyle />
     </>
   );
