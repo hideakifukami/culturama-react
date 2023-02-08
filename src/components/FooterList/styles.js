@@ -11,7 +11,3 @@ export const FooterListItemTitle = styled.li`
 export const FooterListTitle = styled.h3`
 
 `
-
-export const FooterListItem = styled.li`
-
-`
