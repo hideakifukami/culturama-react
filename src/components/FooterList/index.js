@@ -9,7 +9,7 @@ const FooterList = ({ h3, itens }) => {
         <C.FooterListItemTitle>
             <C.FooterListTitle>{h3}</C.FooterListTitle>
         </C.FooterListItemTitle>
-
+        <FooterListItem value={itens} />
     </C.FooterListContainer>
   )
 }
