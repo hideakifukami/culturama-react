@@ -26,16 +26,6 @@ const Footer = () => {
         },
 
         {
-            h3: "Encontre eventos",
-            itens: {
-                item1: "Esta semana",
-                item2: "Este fim de semana",
-                item3: "Este mês",
-                item4: "Este trimestre"
-            }
-        },
-
-        {
             h3: "Categorias",
             itens: {
                 item1: "Shows",
@@ -77,6 +67,10 @@ const Footer = () => {
         {footerListData.map((item, index) => (
             <FooterList key={index} h3={item.h3} itens={item.itens} />
         ))}
+        <C.FooterLogo>
+            <C.FooterLogoTitle />
+            <C.FooterLogoP>Desenvolvido por Hideaki Fukami</C.FooterLogoP>
+        </C.FooterLogo>
     </C.FooterContainer>
   )
 }

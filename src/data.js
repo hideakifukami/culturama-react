@@ -5,7 +5,6 @@ import Agenda4 from './img/agenda-4.png'
 import Agenda5 from './img/agenda-5.png'
 import Agenda6 from './img/agenda-6.png'
 import Apresentacao720 from './img/apresentacao-720.png'
-import Apresentacao from './img/apresentacao.png'
 import Banner1 from './img/banner1.png'
 import Banner2 from './img/banner2.png'
 import Banner3 from './img/banner3.png'
@@ -19,7 +18,6 @@ import Evento5 from './img/evento-5.png'
 import Evento6 from './img/evento-6.png'
 import Evento7 from './img/evento-7.png'
 import Evento8 from './img/evento-8.png'
-import Favicon from './img/Favicon2.png'
 import IconeBusca from './img/icone-busca.png'
 import IconeGPS from './img/icone-gps.png'
 import IconeSetaAvancar from './img/icone-seta-avancar.png'
@@ -104,4 +102,8 @@ export const scheduleData = {
     agenda4: Agenda4,
     agenda5: Agenda5,
     agenda6: Agenda6
+}
+
+export const footerData = {
+    logo: LogoRodape
 }
